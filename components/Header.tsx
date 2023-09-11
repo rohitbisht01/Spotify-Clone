@@ -74,12 +74,12 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
               <Button className="bg-white px-6 py-2" onClick={handleLogout}>
                 Logout
               </Button>
-              <Button
+              {/* <Button
                 onClick={() => router.push("/account")}
                 className="bg-white"
               >
                 <FaUserAlt />
-              </Button>
+              </Button> */}
             </div>
           ) : (
             <>
